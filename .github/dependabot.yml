@@ -1,0 +1,47 @@
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/brighterscript-with-custom-plugin"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DrMattChristian"
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "build"
+
+  - package-ecosystem: "npm"
+    directory: "/custom-package-task"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DrMattChristian"
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "build"
+
+  - package-ecosystem: "npm"
+    directory: "/sourcemap-support"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "03:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DrMattChristian"
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "build"
