@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bestzip": "^2.2.5"
+    "bestzip": "^3.0.1"
   }
 }
