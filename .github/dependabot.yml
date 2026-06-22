@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "03:00"
+      time: "03:15"
     open-pull-requests-limit: 5
     reviewers:
       - "DrMattChristian"
@@ -21,7 +21,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "03:00"
+      time: "03:30"
     open-pull-requests-limit: 5
     reviewers:
       - "DrMattChristian"
@@ -36,7 +36,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-      time: "03:00"
+      time: "03:45"
     open-pull-requests-limit: 5
     reviewers:
       - "DrMattChristian"
