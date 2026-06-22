@@ -11,5 +11,9 @@
   "devDependencies": {
     "brighterscript": "^0.72.5",
     "ts-node": "^10.7.0"
+  },
+  "overrides": {
+    "postman-request": "2.88.1-postman.48",
+    "tough-cookie": "4.1.3"
   }
 }
