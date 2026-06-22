@@ -11,7 +11,9 @@
   "devDependencies": {
     "fs-extra": "^9.0.0",
     "glob-all": "^3.2.1",
-    "source-map": "^0.7.3",
+    "source-map": "^0.7.3"
+  },
+  "overrides": {
     "brace-expansion": "^2.0.1",
     "minimatch": "^9.0.3"
   }
